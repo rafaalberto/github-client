@@ -10,7 +10,7 @@
 
 (defn print-info [response]
   (let [{:strs [login name location followers]} response]
-    (str "# GitHub Profile Info #"
+    (println "# GitHub Profile Info #"
          "\nUsername: " login
          "\nName: " name
          "\nLocation: " location
@@ -20,5 +20,4 @@
   [& args]
   (-> (get-profile-info)
       (parse-string)
-      (print-info)
-      (println)))
+      (print-info)))
