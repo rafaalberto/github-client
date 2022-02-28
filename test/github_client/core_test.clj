@@ -2,6 +2,10 @@
   (:require [clojure.test :refer :all]
             [github-client.core :refer :all]))
 
-(deftest a-test
+(deftest success-test
+  (testing "I am OK."
+    (is (= 1 1))))
+
+(deftest fail-test
   (testing "FIXME, I fail."
     (is (= 0 1))))

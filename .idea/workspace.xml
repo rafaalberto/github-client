@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdfac473-7a4f-47e1-8349-9000187ac1b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github_client/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/github_client/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/github_client/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/github_client/core_test.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="clojure.test.Test github-client.core-test/a-test">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -83,8 +83,29 @@
       <setting name="workDir" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="Run tests in github-client.core-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="github-client" />
+      <option name="namespace" value="github-client.core-test" />
+      <option name="selector" value="SINGLE_NS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test github-client.core-test/a-test" type="ClojureTestRunConfiguration" factoryName="clojure.test" temporary="true">
+      <module name="github-client" />
+      <option name="selector" value="SINGLE_VAR" />
+      <option name="varFqn" value="github-client.core-test/a-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.github-client.core" />
+      <item itemvalue="clojure.test.Test github-client.core-test/a-test" />
+      <item itemvalue="clojure.test.Run tests in github-client.core-test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="clojure.test.Test github-client.core-test/a-test" />
+        <item itemvalue="clojure.test.Run tests in github-client.core-test" />
         <item itemvalue="Clojure Application.github-client.core" />
       </list>
     </recent_temporary>
