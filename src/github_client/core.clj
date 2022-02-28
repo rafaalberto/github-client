@@ -4,12 +4,12 @@
   (:require [clojure.tools.cli :refer [parse-opts]])
   (:gen-class))
 
-(def api-url "https://api.github.com/users/")
+(def base-url "https://api.github.com/users/")
 
 (defn get-profile-info [username]
   (prn "username: " username)
   (:body (http-client/get
-           (str api-url username))))
+           (str base-url username))))
 
 (defn print-info [response]
   (let [{:strs [name location followers]} response]
