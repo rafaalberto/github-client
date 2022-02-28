@@ -5,7 +5,8 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [clj-http "3.12.3"]
-                 [cheshire "5.10.2"]]
+                 [cheshire "5.10.2"]
+                 [org.clojure/tools.cli "1.0.206"]]
   :main ^:skip-aot github-client.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
