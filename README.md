@@ -6,4 +6,5 @@
 
   - Programming language: Clojure.
   - Libraries:
-    - clj-http (Http requests)
+    - Clj-http (Http requests)
+    - Cheshire (parse JSON to String)
