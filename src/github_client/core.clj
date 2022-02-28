@@ -3,21 +3,21 @@
   (:require [cheshire.core :refer [parse-string]])
   (:gen-class))
 
-(def api-url "https://api.github.com/users/rafaalberto")
+(def api-url "https://api.github.com/users/")
 
-(defn get-profile-info []
-  (:body (http-client/get api-url)))
+(defn get-profile-info [username]
+  (:body (http-client/get
+           (str api-url (first username)))))
 
 (defn print-info [response]
-  (let [{:strs [login name location followers]} response]
+  (let [{:strs [name location followers]} response]
     (println "# GitHub Profile Info #"
-         "\nUsername: " login
-         "\nName: " name
-         "\nLocation: " location
-         "\nTotal Followers: " followers)))
+             "\nName: " name
+             "\nLocation: " location
+             "\nTotal Followers: " followers)))
 
 (defn -main
   [& args]
-  (-> (get-profile-info)
+  (-> (get-profile-info args)
       (parse-string)
       (print-info)))
