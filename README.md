@@ -10,5 +10,6 @@
     - Tools CLI (Command line)
 
 
-- **Usage:**
-  - _lein run --username rafaalberto_
+- **Run project:**
+
+  `lein run --username rafaalberto`
