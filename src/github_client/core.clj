@@ -1,6 +1,6 @@
 (ns github-client.core
-  (:require [github-client.client :refer [get-profile]])
   (:require [github-client.options :refer [read-options]])
+  (:require [github-client.client :refer [get-profile]])
   (:require [github-client.report :refer [get-report]])
   (:gen-class))
 

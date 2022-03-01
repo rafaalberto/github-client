@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdfac473-7a4f-47e1-8349-9000187ac1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/github_client/client.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/github_client/options.clj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/github_client/report.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github_client/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/github_client/core.clj" afterDir="false" />
-    </list>
+    <list default="true" id="cdfac473-7a4f-47e1-8349-9000187ac1b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cursive.last.file.extension./home/rafael/workspace/studies/clojure/github-client/src" value="clj" />
   </component>
-  <component name="ReplState" timestamp="1646093889322">nil</component>
+  <component name="ReplState" timestamp="1646094084552">nil</component>
   <component name="RunManager" selected="Clojure Application.github-client.core">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
