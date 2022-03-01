@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdfac473-7a4f-47e1-8349-9000187ac1b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_56.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_194.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github_client/client.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github_client/options.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github_client/report.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/github-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github_client/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/github_client/core.clj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +44,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./home/rafael/workspace/studies/clojure/github-client/src" value="clj" />
   </component>
+  <component name="ReplState" timestamp="1646093889322">nil</component>
   <component name="RunManager" selected="Clojure Application.github-client.core">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -104,9 +111,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Clojure Application.github-client.core" />
       <item itemvalue="clojure.test.Test github-client.core-test/a-test" />
       <item itemvalue="clojure.test.Run tests in github-client.core-test" />
+      <item itemvalue="Clojure Application.github-client.core" />
     </list>
     <recent_temporary>
       <list>

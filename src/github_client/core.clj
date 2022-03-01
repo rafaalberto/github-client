@@ -1,30 +1,11 @@
 (ns github-client.core
-  (:require [clj-http.client :as http-client])
-  (:require [cheshire.core :refer [parse-string]])
-  (:require [clojure.tools.cli :refer [parse-opts]])
+  (:require [github-client.client :refer [get-profile]])
+  (:require [github-client.options :refer [read-options]])
+  (:require [github-client.report :refer [get-report]])
   (:gen-class))
-
-(def base-url "https://api.github.com/users/")
-
-(defn get-profile-info [username]
-  (prn "username: " username)
-  (:body (http-client/get
-           (str base-url username))))
-
-(defn print-info [response]
-  (let [{:strs [name location followers]} response]
-    (println "# GitHub Profile Info #"
-             "\nName: " name
-             "\nLocation: " location
-             "\nTotal Followers: " followers)))
-
-(defn read-options [arguments]
-  (:options (parse-opts arguments
-                        [["-u" "--username name"]])))
 
 (defn -main
   [& args]
   (let [{:keys [username]} (read-options args)]
-    (-> (get-profile-info username)
-        (parse-string)
-        (print-info))))
+    (-> (get-profile username)
+        (get-report))))
