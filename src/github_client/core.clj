@@ -8,4 +8,5 @@
   [& args]
   (let [{:keys [username]} (read-options args)]
     (-> (get-profile username)
-        (get-report))))
+        (get-report)
+        (println))))
